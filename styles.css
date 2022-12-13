@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300;400&family=Bokor&family=UnifrakturCook&display=swap');
+
+/* layout */
+* {
+  text-align:center;
+  line-height: 1.75;
+}
+
+body {
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  align-items: center;
+}
+
+main {
+  width:90vw;
+}
+
+/* text */
+h1, h2, label, button {
+  font-family: 'UnifrakturCook', 'Bokor', cursive;
+  font-size:2rem;
+}
+
+p {
+  font-family: 'Arima', cursive;
+}
+
+span {
+  font-family:cursive;
+  font-size:0.9rem;
+}
+
+button {
+  border:none;
+  background:none;
+  cursor:pointer;
+}
+
+button:hover {
+  color:red;
+}
+
+/* form */
+
+form {
+  display:flex;
+  justify-content: center;
+}
+fieldset {
+  display:flex;
+  flex-direction:column;
+  border:none;
+}
+label {
+  font-size:1.5rem;
+  text-align:left;
+}
+input {
+  text-align: left;
+}
+
+/* footer */
+
+footer {
+  position:fixed;
+  bottom:0;
+}
+
+generator {
+  display:none;
+}

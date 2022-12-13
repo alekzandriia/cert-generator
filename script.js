@@ -6,6 +6,7 @@ const jobTitle = document.getElementById('job-title')
 const getAward = document.getElementById('get-award')
 const page = document.getElementById('page')
 const cert = document.getElementById('cert')
+const appTitle = document.getElementById('app-title')
 
 profile.addEventListener('submit', (e) => {
   e.preventDefault
@@ -22,5 +23,6 @@ title.addEventListener('input', () => {
 getAward.addEventListener('click', () => {
   page.classList.toggle("hidden")
   cert.classList.toggle("hidden")
+  appTitle.classList.toggle("hidden")
 })
 

@@ -27,6 +27,10 @@ h1, h2, label, button {
   font-size:2rem;
 }
 
+h1 {
+  font-size:3rem;
+}
+
 p {
   font-family: 'Arima', cursive;
 }
@@ -44,6 +48,10 @@ button {
 
 button:hover {
   color:red;
+}
+
+#signature, #job-title {
+  font-size:2rem;
 }
 
 /* form */
@@ -74,4 +82,10 @@ footer {
 
 generator {
   display:none;
+}
+
+/* print */
+@page {
+  size: landscape;
+  margin: 20%;
 }

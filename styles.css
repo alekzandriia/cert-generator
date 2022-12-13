@@ -17,6 +17,10 @@ main {
   width:90vw;
 }
 
+.hidden {
+  display:none;
+}
+
 /* text */
 h1, h2, label, button {
   font-family: 'UnifrakturCook', 'Bokor', cursive;

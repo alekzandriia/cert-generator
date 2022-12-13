@@ -25,6 +25,7 @@ main {
 h1, h2, label, button {
   font-family: 'UnifrakturCook', 'Bokor', cursive;
   font-size:2rem;
+  text-shadow: 2px 3px #e6e6d8, 3px 4px #c6a39a;
 }
 
 h1 {
